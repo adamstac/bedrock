@@ -1,17 +1,17 @@
-require './lib/foundation'
+require './lib/sass-foundation'
 
 Gem::Specification.new do |s|
   # Release information
-  s.version = Foundation::VERSION
-  s.date = Foundation::DATE
+  s.version = SassFoundation::VERSION
+  s.date = SassFoundation::DATE
 
   # Gem author details
-  s.name = "foundation"
+  s.name = "sass-foundation"
   s.description = %q{Compass extension description}
   s.summary = %q{Compass extension summary}
   s.authors = ["Author Name"]
   s.email = ["author@email.com"]
-  s.homepage = "https://github.com/adamstac/foundation"
+  s.homepage = "https://github.com/adamstac/sass-foundation"
 
   # Gem files
   # These are the files that get distributated in the gem

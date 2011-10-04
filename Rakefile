@@ -1,4 +1,4 @@
-require './lib/foundation'
+require './lib/sass-foundation'
 
 namespace :sass do
 
@@ -19,7 +19,7 @@ namespace :gem do
  
   desc "Build and release the gem"
   task :release => :build do
-    system "gem push foundation-#{Foundation::VERSION}.gem"
+    system "gem push sass-foundation-#{SassFoundation::VERSION}.gem"
   end
   
 end

@@ -7,7 +7,7 @@ group :development do
   gem 'heroku'
 end
 
-group :serve do
+group :test do
   gem 'serve', '~> 1.5.1'
   gem 'haml', '~> 3.1.3'
   gem 'css_parser', '~> 1.2.5'
