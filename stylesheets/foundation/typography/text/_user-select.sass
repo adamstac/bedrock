@@ -1,0 +1,11 @@
+@import compass/css3/shared
+
+// Content selection granularity: user-select
+// Values: none (default), text, toggle, element, elements, all, inherit
+//
+// References:
+//
+// 1. http://www.w3.org/TR/2000/WD-css3-userint-20000216#user-select
+
+@mixin user-select($value: none)
+  +experimental(user-select, $value)

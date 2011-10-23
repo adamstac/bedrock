@@ -1,0 +1,34 @@
+// Bulletproof Clearfix
+// Prescribed by Nathan Smith / @NathanSmith
+//
+// References:
+//
+// 1. https://gist.github.com/1260785
+
+$include-clearfix-class: false !default
+$clearfix-prefix: false !default
+
+@mixin bulletproof-clearfix
+  zoom: 1
+  &:before, &:after
+    content: '.'
+    display: block
+    overflow: hidden
+    visibility: hidden
+    font-size: 0
+    line-height: 0
+    width: 0
+    height: 0
+  &:after
+    clear: both
+
+@mixin bp-clearfix
+  @include bulletproof-clearfix
+
+@if $include-clearfix-class
+  @if $clearfix-prefix
+    .#{$clearfix-prefix}-clearfix
+      @include bulletproof-clearfix
+  @else
+    .clearfix
+      @include bulletproof-clearfix

@@ -7,10 +7,10 @@ Gem::Specification.new do |s|
 
   # Gem author details
   s.name = "sass-foundation"
-  s.description = %q{Compass extension description}
-  s.summary = %q{Compass extension summary}
-  s.authors = ["Author Name"]
-  s.email = ["author@email.com"]
+  s.description = %q{Sass Foundation}
+  s.summary = %q{Sass Foundation is a work in-progress.}
+  s.authors = ["Adam Stacoviak"]
+  s.email = ["adam@stacoviak.com"]
   s.homepage = "https://github.com/adamstac/sass-foundation"
 
   # Gem files
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.files = ["README.mdown"]
   s.files += Dir.glob("lib/**/*.*")
   s.files += Dir.glob("stylesheets/**/*.*")
-  s.files += Dir.glob("templates/**/*.*")
+  # s.files += Dir.glob("templates/**/*.*")
 
   # Gem bookkeeping
   s.required_rubygems_version = ">= 1.3.6"

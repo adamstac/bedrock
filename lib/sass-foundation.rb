@@ -1,5 +1,5 @@
 require 'compass'
-Compass::Frameworks.register("sass-foundation", :path => "#{File.dirname(__FILE__)}/..")
+Compass::Frameworks.register("foundation", :path => "#{File.dirname(__FILE__)}/..")
 
 module SassFoundation
   
