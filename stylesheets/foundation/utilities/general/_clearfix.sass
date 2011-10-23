@@ -22,9 +22,6 @@ $clearfix-prefix: false !default
   &:after
     clear: both
 
-@mixin bp-clearfix
-  @include bulletproof-clearfix
-
 @if $include-clearfix-class
   @if $clearfix-prefix
     .#{$clearfix-prefix}-clearfix
