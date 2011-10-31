@@ -1,17 +1,17 @@
-require './lib/sass-foundation'
+require './lib/bedrock'
 
 Gem::Specification.new do |s|
   # Release information
-  s.version = SassFoundation::VERSION
-  s.date = SassFoundation::DATE
+  s.version = Bedrock::VERSION
+  s.date = Bedrock::DATE
 
   # Gem author details
-  s.name = "sass-foundation"
-  s.description = %q{Sass Foundation}
-  s.summary = %q{Sass Foundation is a work in-progress.}
+  s.name = "bedrock"
+  s.description = %q{Bedrock}
+  s.summary = %q{Bedrock is a work in-progress.}
   s.authors = ["Adam Stacoviak"]
   s.email = ["adam@stacoviak.com"]
-  s.homepage = "https://github.com/adamstac/sass-foundation"
+  s.homepage = "https://github.com/adamstac/bedrock"
 
   # Gem files
   # These are the files that get distributated in the gem

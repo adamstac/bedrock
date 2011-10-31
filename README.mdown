@@ -1,6 +1,6 @@
-# Sass Foundation
+# Bedrock
 
-A work in progress.
+A work in progress ...
 
 ## Installation
 
