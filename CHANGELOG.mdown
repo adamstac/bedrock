@@ -1,0 +1,8 @@
+# 0.0.2
+
+* Small update to the reset to reset ul and ol
+* Renamed greyscale to grayscale
+
+# 0.0.1
+
+* This project is very much a work in progress. 0.0.1 was about getting the initial start out there.
