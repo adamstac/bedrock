@@ -63,7 +63,14 @@
     // For IE: http://css-tricks.com/ie-fix-bicubic-scaling-for-images
     -ms-interpolation-mode: bicubic
 
-  // For IE6 + IE7
+  ol,
+  ul
+    list-style: none
+
+  // For IE6 + IE7:
+  //
+  // "display: list-item" keeps bullets from
+  // disappearing if hasLayout is triggered.
   li 
     display: list-item
 
