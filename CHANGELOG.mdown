@@ -1,3 +1,7 @@
+# 0.0.3
+
+* Renamed the reset to use a dash vs an underscore
+
 # 0.0.2
 
 * Small update to the reset to reset ul and ol
